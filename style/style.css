@@ -1,0 +1,51 @@
+#top-flex-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    width: 100%;
+
+}
+
+#top-flex-main>#top-flex-logo,
+#top-flex-other {
+
+    background-color: cornflowerblue;
+    height: 30px;
+}
+
+
+#top-flex-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+#top-flex-logo>div {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+#top-flex-other {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+
+}
+
+#top-flex-other>div {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#top-flex-other>div:hover {
+    background-color: white;
+    transition: 1000ms;
+}
